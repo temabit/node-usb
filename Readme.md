@@ -16,7 +16,7 @@ Libusb is included as a submodule. On Linux, you'll need libudev to build libusb
 
 Then, just run
 
-	npm install usb
+	npm install @temabit/usb
 
 to install from npm. See the bottom of this page for instructions for building from a git checkout.
 
@@ -27,7 +27,7 @@ Use [Zadig](http://zadig.akeo.ie/) to install the WinUSB driver for your USB dev
 API
 ===
 
-	var usb = require('usb')
+	var usb = require('@temabit/usb')
 
 usb
 ---
@@ -308,7 +308,7 @@ Development and testing
 
 To build from git:
 
-	git clone --recursive https://github.com/nonolith/node-usb.git
+	git clone --recursive http://tfs2013.fozzy.lan:8080/tfs/DefaultCollection/Bit_ModulesSystem_Hardware/_git/usb
 	cd node-usb
 	npm install
 
