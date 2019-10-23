@@ -1,7 +1,7 @@
 {
   "name": "@temabit/usb",
   "description": "Library to access USB devices",
-  "version": "1.6.1",
+  "version": "1.6.2",
   "engines": {
     "node": ">=10"
   },
@@ -28,7 +28,6 @@
       "name": "Christopher Klein"
     }
   ],
-  "main": "./usb",
   "repository": {
     "type": "git",
     "url": "http://tfs2013.fozzy.lan:8080/tfs/DefaultCollection/Bit_ModulesSystem_Hardware/_git/usb"
@@ -49,9 +48,11 @@
     "**/nan": "2.13.2"
   },
   "devDependencies": {
+    "@types/node": "^10.0.0",
     "coffeescript": "~2.4.1",
     "mocha": "~6.1.4",
-    "prebuild": "^8.2.1"
+    "prebuild": "^8.2.1",
+    "typescript": "^3.6.4"
   },
   "license": "MIT"
 }
