@@ -111,13 +111,11 @@
             'libusb/libusb/os/threads_windows.c',
             'libusb/libusb/os/threads_windows.h',
             'libusb/libusb/os/windows_common.h',
-            'libusb/libusb/os/windows_winusb.c',
-            'libusb/libusb/os/windows_winusb.h',
+            'libusb/libusb/os/windows_usb.c',
+            'libusb/libusb/os/windows_usb.h',
             'libusb/msvc/config.h',
             'libusb/msvc/inttypes.h',
             'libusb/msvc/stdint.h',
-            'libusb/libusb/os/windows_nt_common.c',
-            'libusb/libusb/os/windows_usbdk.c',
           ],
           'include_dirs!': [
             'libusb_config',
@@ -126,6 +124,11 @@
             'libusb/msvc',
           ],
           'msvs_disabled_warnings': [ 4267 ],
+          'msvs_settings': {
+              'VCCLCompilerTool': {
+                'AdditionalOptions': [ '/source-charset:utf-8' ],
+              },
+            }
         }],
       ],
     },
