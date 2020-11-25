@@ -1,7 +1,7 @@
 {
   "name": "@temabit/usb",
   "description": "Library to access USB devices",
-  "version": "1.6.5",
+  "version": "1.6.6",
   "engines": {
     "node": ">=10"
   },
@@ -10,6 +10,10 @@
     "hardware"
   ],
   "contributors": [
+    {
+      "name": "Dmytro Samborkyi",
+      "email": "d.samborskyi@temabit.com"
+    },
     {
       "name": "Oleksandr Fedorchuk",
       "email": "o.fedorchuk@temabit.com"
@@ -30,7 +34,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "http://tfs2013.fozzy.lan:8080/tfs/DefaultCollection/Bit_ModulesSystem_Hardware/_git/usb"
+    "url": "https://github.com/temabit/usb-express"
   },
   "scripts": {
     "install": "prebuild-install --verbose || node-gyp rebuild",
